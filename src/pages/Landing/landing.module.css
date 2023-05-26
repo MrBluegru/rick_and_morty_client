@@ -1,0 +1,47 @@
+.landingPage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url("/public/landing.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  color: #000000;
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: fantasy;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.btnStart {
+  background-color: #000000;
+  color: rgb(229, 17, 102);
+  border: none;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-family: fantasy;
+  cursor: pointer;
+}
+
+.btnStart:hover {
+  color: #000000;
+  background-color: rgb(229, 17, 102);
+}
+
+.linkName {
+  color: #000000;
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  font-family: fantasy;
+  margin-top: 1rem;
+}
